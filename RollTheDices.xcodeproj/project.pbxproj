@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655FDDA7221E68A4008D73D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDA6221E68A4008D73D0 /* AppDelegate.swift */; };
+		655FDDA9221E68A4008D73D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDA8221E68A4008D73D0 /* ViewController.swift */; };
+		655FDDAC221E68A4008D73D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655FDDAA221E68A4008D73D0 /* Main.storyboard */; };
+		655FDDAE221E68A5008D73D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655FDDAD221E68A5008D73D0 /* Assets.xcassets */; };
+		655FDDB1221E68A5008D73D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655FDDAF221E68A5008D73D0 /* LaunchScreen.storyboard */; };
+		655FDDBC221E68A5008D73D0 /* RollTheDicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDBB221E68A5008D73D0 /* RollTheDicesTests.swift */; };
+		655FDDC7221E68A5008D73D0 /* RollTheDicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDC6221E68A5008D73D0 /* RollTheDicesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655FDDB8221E68A5008D73D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655FDD9B221E68A4008D73D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655FDDA2221E68A4008D73D0;
+			remoteInfo = RollTheDices;
+		};
+		655FDDC3221E68A5008D73D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655FDD9B221E68A4008D73D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655FDDA2221E68A4008D73D0;
+			remoteInfo = RollTheDices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		655FDDA3221E68A4008D73D0 /* RollTheDices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FDDA6221E68A4008D73D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655FDDA8221E68A4008D73D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655FDDAB221E68A4008D73D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655FDDAD221E68A5008D73D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655FDDB0221E68A5008D73D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655FDDB2221E68A5008D73D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655FDDB7221E68A5008D73D0 /* RollTheDicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FDDBB221E68A5008D73D0 /* RollTheDicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDicesTests.swift; sourceTree = "<group>"; };
+		655FDDBD221E68A5008D73D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655FDDC2221E68A5008D73D0 /* RollTheDicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FDDC6221E68A5008D73D0 /* RollTheDicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDicesUITests.swift; sourceTree = "<group>"; };
+		655FDDC8221E68A5008D73D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655FDDA0221E68A4008D73D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDB4221E68A5008D73D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDBF221E68A5008D73D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655FDD9A221E68A4008D73D0 = {
+			isa = PBXGroup;
+			children = (
+				655FDDA5221E68A4008D73D0 /* RollTheDices */,
+				655FDDBA221E68A5008D73D0 /* RollTheDicesTests */,
+				655FDDC5221E68A5008D73D0 /* RollTheDicesUITests */,
+				655FDDA4221E68A4008D73D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655FDDA4221E68A4008D73D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655FDDA3221E68A4008D73D0 /* RollTheDices.app */,
+				655FDDB7221E68A5008D73D0 /* RollTheDicesTests.xctest */,
+				655FDDC2221E68A5008D73D0 /* RollTheDicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655FDDA5221E68A4008D73D0 /* RollTheDices */ = {
+			isa = PBXGroup;
+			children = (
+				655FDDA6221E68A4008D73D0 /* AppDelegate.swift */,
+				655FDDA8221E68A4008D73D0 /* ViewController.swift */,
+				655FDDAA221E68A4008D73D0 /* Main.storyboard */,
+				655FDDAD221E68A5008D73D0 /* Assets.xcassets */,
+				655FDDAF221E68A5008D73D0 /* LaunchScreen.storyboard */,
+				655FDDB2221E68A5008D73D0 /* Info.plist */,
+			);
+			path = RollTheDices;
+			sourceTree = "<group>";
+		};
+		655FDDBA221E68A5008D73D0 /* RollTheDicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				655FDDBB221E68A5008D73D0 /* RollTheDicesTests.swift */,
+				655FDDBD221E68A5008D73D0 /* Info.plist */,
+			);
+			path = RollTheDicesTests;
+			sourceTree = "<group>";
+		};
+		655FDDC5221E68A5008D73D0 /* RollTheDicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				655FDDC6221E68A5008D73D0 /* RollTheDicesUITests.swift */,
+				655FDDC8221E68A5008D73D0 /* Info.plist */,
+			);
+			path = RollTheDicesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655FDDA2221E68A4008D73D0 /* RollTheDices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FDDCB221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDices" */;
+			buildPhases = (
+				655FDD9F221E68A4008D73D0 /* Sources */,
+				655FDDA0221E68A4008D73D0 /* Frameworks */,
+				655FDDA1221E68A4008D73D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollTheDices;
+			productName = RollTheDices;
+			productReference = 655FDDA3221E68A4008D73D0 /* RollTheDices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655FDDB6221E68A5008D73D0 /* RollTheDicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FDDCE221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDicesTests" */;
+			buildPhases = (
+				655FDDB3221E68A5008D73D0 /* Sources */,
+				655FDDB4221E68A5008D73D0 /* Frameworks */,
+				655FDDB5221E68A5008D73D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655FDDB9221E68A5008D73D0 /* PBXTargetDependency */,
+			);
+			name = RollTheDicesTests;
+			productName = RollTheDicesTests;
+			productReference = 655FDDB7221E68A5008D73D0 /* RollTheDicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		655FDDC1221E68A5008D73D0 /* RollTheDicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FDDD1221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDicesUITests" */;
+			buildPhases = (
+				655FDDBE221E68A5008D73D0 /* Sources */,
+				655FDDBF221E68A5008D73D0 /* Frameworks */,
+				655FDDC0221E68A5008D73D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655FDDC4221E68A5008D73D0 /* PBXTargetDependency */,
+			);
+			name = RollTheDicesUITests;
+			productName = RollTheDicesUITests;
+			productReference = 655FDDC2221E68A5008D73D0 /* RollTheDicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655FDD9B221E68A4008D73D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = user148108;
+				TargetAttributes = {
+					655FDDA2221E68A4008D73D0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					655FDDB6221E68A5008D73D0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 655FDDA2221E68A4008D73D0;
+					};
+					655FDDC1221E68A5008D73D0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 655FDDA2221E68A4008D73D0;
+					};
+				};
+			};
+			buildConfigurationList = 655FDD9E221E68A4008D73D0 /* Build configuration list for PBXProject "RollTheDices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655FDD9A221E68A4008D73D0;
+			productRefGroup = 655FDDA4221E68A4008D73D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655FDDA2221E68A4008D73D0 /* RollTheDices */,
+				655FDDB6221E68A5008D73D0 /* RollTheDicesTests */,
+				655FDDC1221E68A5008D73D0 /* RollTheDicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655FDDA1221E68A4008D73D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FDDB1221E68A5008D73D0 /* LaunchScreen.storyboard in Resources */,
+				655FDDAE221E68A5008D73D0 /* Assets.xcassets in Resources */,
+				655FDDAC221E68A4008D73D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDB5221E68A5008D73D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDC0221E68A5008D73D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655FDD9F221E68A4008D73D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FDDA9221E68A4008D73D0 /* ViewController.swift in Sources */,
+				655FDDA7221E68A4008D73D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDB3221E68A5008D73D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FDDBC221E68A5008D73D0 /* RollTheDicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FDDBE221E68A5008D73D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FDDC7221E68A5008D73D0 /* RollTheDicesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655FDDB9221E68A5008D73D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655FDDA2221E68A4008D73D0 /* RollTheDices */;
+			targetProxy = 655FDDB8221E68A5008D73D0 /* PBXContainerItemProxy */;
+		};
+		655FDDC4221E68A5008D73D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655FDDA2221E68A4008D73D0 /* RollTheDices */;
+			targetProxy = 655FDDC3221E68A5008D73D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655FDDAA221E68A4008D73D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655FDDAB221E68A4008D73D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655FDDAF221E68A5008D73D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655FDDB0221E68A5008D73D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655FDDC9221E68A5008D73D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655FDDCA221E68A5008D73D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655FDDCC221E68A5008D73D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655FDDCD221E68A5008D73D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655FDDCF221E68A5008D73D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDicesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDices.app/RollTheDices";
+			};
+			name = Debug;
+		};
+		655FDDD0221E68A5008D73D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDicesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDices.app/RollTheDices";
+			};
+			name = Release;
+		};
+		655FDDD2221E68A5008D73D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDicesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollTheDices;
+			};
+			name = Debug;
+		};
+		655FDDD3221E68A5008D73D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollTheDicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RibiStars.RollTheDicesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollTheDices;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655FDD9E221E68A4008D73D0 /* Build configuration list for PBXProject "RollTheDices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FDDC9221E68A5008D73D0 /* Debug */,
+				655FDDCA221E68A5008D73D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FDDCB221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FDDCC221E68A5008D73D0 /* Debug */,
+				655FDDCD221E68A5008D73D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FDDCE221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FDDCF221E68A5008D73D0 /* Debug */,
+				655FDDD0221E68A5008D73D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FDDD1221E68A5008D73D0 /* Build configuration list for PBXNativeTarget "RollTheDicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FDDD2221E68A5008D73D0 /* Debug */,
+				655FDDD3221E68A5008D73D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655FDD9B221E68A4008D73D0 /* Project object */;
+}
