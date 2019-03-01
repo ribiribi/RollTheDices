@@ -15,6 +15,11 @@ class ShowResults: UITableViewController {
     var managerDicesBag = [Int]()
     
     
+    override func viewDidLoad() {
+        self.navigationItem.title = "Results"
+    }
+    
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {

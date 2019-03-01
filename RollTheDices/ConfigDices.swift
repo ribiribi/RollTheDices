@@ -32,6 +32,8 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        self.navigationItem.title = "Select dices"
     }
     
     
@@ -41,7 +43,7 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     }
     
     
-    // MARK: - Functions
+    // MARK: - PickerView
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

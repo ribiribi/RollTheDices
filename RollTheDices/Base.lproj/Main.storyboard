@@ -309,16 +309,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ny5-te-wsg">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90.5"/>
+                                            <rect key="frame" x="98" y="0.0" width="179" height="90.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLI-IQ-Yo7">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187.5" height="90.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="89.5" height="90.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <color key="textColor" red="1" green="0.19012612609999999" blue="0.21286582300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROv-SV-TzZ">
-                                                    <rect key="frame" x="187.5" y="0.0" width="187.5" height="90.5"/>
+                                                    <rect key="frame" x="89.5" y="0.0" width="89.5" height="90.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -328,9 +328,8 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Ny5-te-wsg" firstAttribute="top" secondItem="Tgj-MX-XCC" secondAttribute="top" id="0lo-7q-6en"/>
+                                        <constraint firstItem="Ny5-te-wsg" firstAttribute="centerX" secondItem="Tgj-MX-XCC" secondAttribute="centerX" id="TVu-WI-Kph"/>
                                         <constraint firstAttribute="bottom" secondItem="Ny5-te-wsg" secondAttribute="bottom" id="UYx-bR-uz5"/>
-                                        <constraint firstAttribute="trailing" secondItem="Ny5-te-wsg" secondAttribute="trailing" id="Y3B-ow-Cdi"/>
-                                        <constraint firstItem="Ny5-te-wsg" firstAttribute="leading" secondItem="Tgj-MX-XCC" secondAttribute="leading" id="vxY-jM-zzR"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
