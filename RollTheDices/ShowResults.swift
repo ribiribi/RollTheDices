@@ -11,18 +11,14 @@ import UIKit
 
 class ShowResults: UITableViewController {
 
-    
+    //Get managerDicesBag from ConfigDices view controller
     var managerDicesBag = [Int]()
-
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        
-    }
     
     
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
+       
         return 1
     }
     
@@ -35,12 +31,13 @@ class ShowResults: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "DiceResult", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DiceResult", for: indexPath) as! ResultDiceCell
         let dice = managerDicesBag[indexPath.item]
         
         let diceResult = Int.random(in: 1 ..< dice+1)
         
-        cell.textLabel!.text = String(diceResult)
+        cell.resultDice.text = String(diceResult)
+        cell.valueDice.text = "Dice's value: " + String(dice)
 
         return cell
     }
