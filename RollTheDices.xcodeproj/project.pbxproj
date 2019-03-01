@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		654F6B712226C70700297725 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F6B702226C70700297725 /* Dice.swift */; };
 		655FDDA7221E68A4008D73D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDA6221E68A4008D73D0 /* AppDelegate.swift */; };
 		655FDDA9221E68A4008D73D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDA8221E68A4008D73D0 /* ViewController.swift */; };
 		655FDDAC221E68A4008D73D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655FDDAA221E68A4008D73D0 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		655FDDB1221E68A5008D73D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655FDDAF221E68A5008D73D0 /* LaunchScreen.storyboard */; };
 		655FDDBC221E68A5008D73D0 /* RollTheDicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDBB221E68A5008D73D0 /* RollTheDicesTests.swift */; };
 		655FDDC7221E68A5008D73D0 /* RollTheDicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FDDC6221E68A5008D73D0 /* RollTheDicesUITests.swift */; };
+		659BC97C221E8785003397F6 /* dice-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC976221E8784003397F6 /* dice-3.jpg */; };
+		659BC97D221E8785003397F6 /* dice-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC977221E8784003397F6 /* dice-2.jpg */; };
+		659BC97E221E8785003397F6 /* dice-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC978221E8785003397F6 /* dice-4.jpg */; };
+		659BC97F221E8785003397F6 /* dice-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC979221E8785003397F6 /* dice-5.jpg */; };
+		659BC980221E8785003397F6 /* dice-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC97A221E8785003397F6 /* dice-1.jpg */; };
+		659BC981221E8785003397F6 /* dice-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659BC97B221E8785003397F6 /* dice-0.jpg */; };
+		65D60E4822268CA200569615 /* ShowResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D60E4722268CA200569615 /* ShowResults.swift */; };
+		65F115CB222544110045BC7C /* ConfigDices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F115CA222544110045BC7C /* ConfigDices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		654F6B702226C70700297725 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		655FDDA3221E68A4008D73D0 /* RollTheDices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655FDDA6221E68A4008D73D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		655FDDA8221E68A4008D73D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		655FDDC2221E68A5008D73D0 /* RollTheDicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655FDDC6221E68A5008D73D0 /* RollTheDicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDicesUITests.swift; sourceTree = "<group>"; };
 		655FDDC8221E68A5008D73D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659BC976221E8784003397F6 /* dice-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-3.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-3.jpg"; sourceTree = "<group>"; };
+		659BC977221E8784003397F6 /* dice-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-2.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-2.jpg"; sourceTree = "<group>"; };
+		659BC978221E8785003397F6 /* dice-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-4.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-4.jpg"; sourceTree = "<group>"; };
+		659BC979221E8785003397F6 /* dice-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-5.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-5.jpg"; sourceTree = "<group>"; };
+		659BC97A221E8785003397F6 /* dice-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-1.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-1.jpg"; sourceTree = "<group>"; };
+		659BC97B221E8785003397F6 /* dice-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dice-0.jpg"; path = "../../../../../Downloads/drive-download-20190221T071240Z-001/dice-0.jpg"; sourceTree = "<group>"; };
+		65D60E4722268CA200569615 /* ShowResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResults.swift; sourceTree = "<group>"; };
+		65F115CA222544110045BC7C /* ConfigDices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigDices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,16 @@
 		655FDDA5221E68A4008D73D0 /* RollTheDices */ = {
 			isa = PBXGroup;
 			children = (
+				655FDDD4221E6A97008D73D0 /* Animation */,
 				655FDDA6221E68A4008D73D0 /* AppDelegate.swift */,
+				654F6B702226C70700297725 /* Dice.swift */,
 				655FDDA8221E68A4008D73D0 /* ViewController.swift */,
+				65F115CA222544110045BC7C /* ConfigDices.swift */,
 				655FDDAA221E68A4008D73D0 /* Main.storyboard */,
 				655FDDAD221E68A5008D73D0 /* Assets.xcassets */,
 				655FDDAF221E68A5008D73D0 /* LaunchScreen.storyboard */,
 				655FDDB2221E68A5008D73D0 /* Info.plist */,
+				65D60E4722268CA200569615 /* ShowResults.swift */,
 			);
 			path = RollTheDices;
 			sourceTree = "<group>";
@@ -123,6 +145,19 @@
 				655FDDC8221E68A5008D73D0 /* Info.plist */,
 			);
 			path = RollTheDicesUITests;
+			sourceTree = "<group>";
+		};
+		655FDDD4221E6A97008D73D0 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				659BC97B221E8785003397F6 /* dice-0.jpg */,
+				659BC97A221E8785003397F6 /* dice-1.jpg */,
+				659BC977221E8784003397F6 /* dice-2.jpg */,
+				659BC976221E8784003397F6 /* dice-3.jpg */,
+				659BC978221E8785003397F6 /* dice-4.jpg */,
+				659BC979221E8785003397F6 /* dice-5.jpg */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +266,13 @@
 			files = (
 				655FDDB1221E68A5008D73D0 /* LaunchScreen.storyboard in Resources */,
 				655FDDAE221E68A5008D73D0 /* Assets.xcassets in Resources */,
+				659BC981221E8785003397F6 /* dice-0.jpg in Resources */,
 				655FDDAC221E68A4008D73D0 /* Main.storyboard in Resources */,
+				659BC97D221E8785003397F6 /* dice-2.jpg in Resources */,
+				659BC97E221E8785003397F6 /* dice-4.jpg in Resources */,
+				659BC980221E8785003397F6 /* dice-1.jpg in Resources */,
+				659BC97C221E8785003397F6 /* dice-3.jpg in Resources */,
+				659BC97F221E8785003397F6 /* dice-5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F115CB222544110045BC7C /* ConfigDices.swift in Sources */,
 				655FDDA9221E68A4008D73D0 /* ViewController.swift in Sources */,
 				655FDDA7221E68A4008D73D0 /* AppDelegate.swift in Sources */,
+				654F6B712226C70700297725 /* Dice.swift in Sources */,
+				65D60E4822268CA200569615 /* ShowResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
