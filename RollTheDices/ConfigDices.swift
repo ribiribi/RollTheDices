@@ -14,9 +14,15 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     
     @IBOutlet weak var pickerNumber1: UIPickerView!
     @IBOutlet weak var pickerNumber2: UIPickerView!
+    @IBOutlet weak var pickerNumber3: UIPickerView!
+    @IBOutlet weak var pickerNumber4: UIPickerView!
+    @IBOutlet weak var pickerNumber5: UIPickerView!
     
     @IBOutlet weak var pickerValue2: UIPickerView!
     @IBOutlet weak var pickerValue1: UIPickerView!
+    @IBOutlet weak var pickerValue3: UIPickerView!
+    @IBOutlet weak var pickerValue4: UIPickerView!
+    @IBOutlet weak var pickerValue5: UIPickerView!
     
     let value = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,100]
     let number = [0,1,2,3,4,5,6,7,8,9,10]
@@ -46,11 +52,11 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         
         switch pickerView {
 
-        case pickerNumber1, pickerNumber2:
+        case pickerNumber1, pickerNumber2, pickerNumber3, pickerNumber4, pickerNumber5:
 
             return String (number[row])
 
-        case pickerValue1, pickerValue2:
+        case pickerValue1, pickerValue2, pickerValue3, pickerValue4, pickerValue5:
 
             return String(value[row])
 
@@ -63,11 +69,11 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
         switch pickerView {
-        case pickerNumber1, pickerNumber2:
+        case pickerNumber1, pickerNumber2, pickerNumber3, pickerNumber4, pickerNumber5:
 
             return number.count
 
-        case pickerValue1, pickerValue2:
+        case pickerValue1, pickerValue2, pickerValue3, pickerValue4, pickerValue5:
 
             return value.count
 
@@ -90,8 +96,10 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         let valueSelected = value[selectedRow]
         
         if numberSelected != 0{
+            
             dice.numberOfDices = numberSelected
             dice.valueOfDices = valueSelected
+            
             dicesBag.append(dice)
         }
     }
@@ -107,6 +115,9 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
             
             selectValuePickerView(pickerNumber1, pickerValue1)
             selectValuePickerView(pickerNumber2, pickerValue2)
+            selectValuePickerView(pickerNumber3, pickerValue3)
+            selectValuePickerView(pickerNumber4, pickerValue4)
+            selectValuePickerView(pickerNumber5, pickerValue5)
         
             for item in dicesBag{
                 for itemNumber in 0...(item.numberOfDices)-1{

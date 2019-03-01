@@ -278,8 +278,14 @@
                     <connections>
                         <outlet property="pickerNumber1" destination="39e-x3-4CW" id="bB8-Zw-aeB"/>
                         <outlet property="pickerNumber2" destination="S0v-L2-i1E" id="D5G-Ag-lZh"/>
+                        <outlet property="pickerNumber3" destination="3uf-x5-Ehp" id="pVi-ay-00i"/>
+                        <outlet property="pickerNumber4" destination="18R-2o-K6A" id="Igu-0L-UaY"/>
+                        <outlet property="pickerNumber5" destination="beW-s3-dU2" id="qAd-dz-Nc4"/>
                         <outlet property="pickerValue1" destination="gin-mU-pc5" id="9nM-2O-aea"/>
                         <outlet property="pickerValue2" destination="bpq-tC-Mys" id="zRm-Mt-T8u"/>
+                        <outlet property="pickerValue3" destination="gQB-eV-EiX" id="98K-0b-s11"/>
+                        <outlet property="pickerValue4" destination="zYm-7a-ojx" id="9qd-ix-vuN"/>
+                        <outlet property="pickerValue5" destination="MuZ-Yn-vKa" id="9DC-B2-lT7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyS-2Y-bim" userLabel="First Responder" sceneMemberID="firstResponder"/>
