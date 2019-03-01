@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2U-x3-wjx">
-                                <rect key="frame" x="164" y="352" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2U-x3-wjx">
+                                <rect key="frame" x="164" y="352" width="47" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6fn-hh-M9i"/>
@@ -55,20 +55,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ttv-KU-WmU">
-                                <rect key="frame" x="10" y="227" width="206.5" height="102.5"/>
+                                <rect key="frame" x="84.5" y="271" width="206" height="96.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0NR-V2-DsL">
-                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="96.5"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0v-L2-i1E">
-                                                <rect key="frame" x="0.0" y="0.0" width="103" height="102.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="96.5"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="7tj-gy-LVV" id="akR-8x-Zg6"/>
                                                     <outlet property="delegate" destination="7tj-gy-LVV" id="SbO-mk-M89"/>
                                                 </connections>
                                             </pickerView>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpq-tC-Mys">
-                                                <rect key="frame" x="103" y="0.0" width="103.5" height="102.5"/>
+                                                <rect key="frame" x="103" y="0.0" width="103" height="96.5"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="7tj-gy-LVV" id="EtW-iP-80x"/>
                                                     <outlet property="delegate" destination="7tj-gy-LVV" id="Rro-M2-pPv"/>
@@ -86,20 +86,20 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTX-ra-JIs">
-                                <rect key="frame" x="10" y="113.5" width="206.5" height="113.5"/>
+                                <rect key="frame" x="84.5" y="164.5" width="206" height="106.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jbE-va-jR8">
-                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="113.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="106.5"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39e-x3-4CW">
-                                                <rect key="frame" x="0.0" y="0.0" width="103" height="113.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="106.5"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="7tj-gy-LVV" id="oCw-kL-gbs"/>
                                                     <outlet property="delegate" destination="7tj-gy-LVV" id="Snh-LS-5Lv"/>
                                                 </connections>
                                             </pickerView>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gin-mU-pc5">
-                                                <rect key="frame" x="103" y="0.0" width="103.5" height="113.5"/>
+                                                <rect key="frame" x="103" y="0.0" width="103" height="106.5"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="7tj-gy-LVV" id="GhO-0g-4LI"/>
                                                     <outlet property="delegate" destination="7tj-gy-LVV" id="79w-bM-1jg"/>
@@ -117,107 +117,160 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-d7-2X9">
-                                <rect key="frame" x="0.0" y="329.5" width="150" height="102.5"/>
+                                <rect key="frame" x="84.5" y="367.5" width="206" height="96.5"/>
                                 <subviews>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNx-d4-GMl">
-                                        <rect key="frame" x="-85" y="-57" width="320" height="216"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="7tj-gy-LVV" id="52y-gP-yHW"/>
-                                            <outlet property="delegate" destination="7tj-gy-LVV" id="OXx-wd-lSR"/>
-                                        </connections>
-                                    </pickerView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3LR-j9-QYC">
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="96.5"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-x5-Ehp">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="96.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="uUB-Hh-eZH"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="uQp-cC-WO3"/>
+                                                </connections>
+                                            </pickerView>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQB-eV-EiX">
+                                                <rect key="frame" x="103" y="0.0" width="103" height="96.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="ISA-Fk-96Y"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="C61-70-0Fd"/>
+                                                </connections>
+                                            </pickerView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="TNx-d4-GMl" firstAttribute="centerX" secondItem="wKA-d7-2X9" secondAttribute="centerX" id="Pdx-ij-sww"/>
-                                    <constraint firstItem="TNx-d4-GMl" firstAttribute="centerY" secondItem="wKA-d7-2X9" secondAttribute="centerY" id="uVj-dh-GTG"/>
+                                    <constraint firstItem="3LR-j9-QYC" firstAttribute="top" secondItem="wKA-d7-2X9" secondAttribute="top" id="78p-EQ-hXN"/>
+                                    <constraint firstAttribute="trailing" secondItem="3LR-j9-QYC" secondAttribute="trailing" id="G3C-Pn-C6k"/>
+                                    <constraint firstAttribute="bottom" secondItem="3LR-j9-QYC" secondAttribute="bottom" id="dKp-d1-R95"/>
+                                    <constraint firstItem="3LR-j9-QYC" firstAttribute="leading" secondItem="wKA-d7-2X9" secondAttribute="leading" id="pBG-bI-qsL"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DH5-Jr-G6f">
-                                <rect key="frame" x="0.0" y="432" width="150" height="102.5"/>
+                                <rect key="frame" x="84.5" y="464" width="206" height="96.5"/>
                                 <subviews>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lp2-Yi-g60">
-                                        <rect key="frame" x="15" y="-57" width="120" height="216"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="7tj-gy-LVV" id="yLJ-kx-d0W"/>
-                                            <outlet property="delegate" destination="7tj-gy-LVV" id="m0P-zq-QVe"/>
-                                        </connections>
-                                    </pickerView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-h6-qQQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="96.5"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18R-2o-K6A">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="96.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="Vhi-Z1-YFV"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="aES-5p-Kjm"/>
+                                                </connections>
+                                            </pickerView>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYm-7a-ojx">
+                                                <rect key="frame" x="103" y="0.0" width="103" height="96.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="YU6-3N-E9Z"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="vtw-8a-yXE"/>
+                                                </connections>
+                                            </pickerView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Lp2-Yi-g60" firstAttribute="width" secondItem="DH5-Jr-G6f" secondAttribute="width" multiplier="0.8" id="Anq-w0-KfX"/>
-                                    <constraint firstItem="Lp2-Yi-g60" firstAttribute="centerX" secondItem="DH5-Jr-G6f" secondAttribute="centerX" id="omA-wg-12B"/>
-                                    <constraint firstItem="Lp2-Yi-g60" firstAttribute="centerY" secondItem="DH5-Jr-G6f" secondAttribute="centerY" id="qR1-Ox-6uj"/>
+                                    <constraint firstAttribute="bottom" secondItem="p4P-h6-qQQ" secondAttribute="bottom" id="8Pz-gA-Pmu"/>
+                                    <constraint firstItem="p4P-h6-qQQ" firstAttribute="top" secondItem="DH5-Jr-G6f" secondAttribute="top" id="JJ0-Hi-Pkx"/>
+                                    <constraint firstAttribute="trailing" secondItem="p4P-h6-qQQ" secondAttribute="trailing" id="Muj-6q-qBr"/>
+                                    <constraint firstItem="p4P-h6-qQQ" firstAttribute="leading" secondItem="DH5-Jr-G6f" secondAttribute="leading" id="sNJ-jk-FXE"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Oi-xS-waV">
-                                <rect key="frame" x="0.0" y="534.5" width="150" height="102.5"/>
+                                <rect key="frame" x="84.5" y="560.5" width="206" height="96.5"/>
                                 <subviews>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TM-4c-9Ge">
-                                        <rect key="frame" x="15" y="-57" width="120" height="216"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="7tj-gy-LVV" id="bLN-Pz-se2"/>
-                                            <outlet property="delegate" destination="7tj-gy-LVV" id="rMU-dr-shr"/>
-                                        </connections>
-                                    </pickerView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dtx-BF-zXQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="86.5"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beW-s3-dU2">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="86.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="cFl-nr-fXu"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="I1q-bM-nsa"/>
+                                                </connections>
+                                            </pickerView>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MuZ-Yn-vKa">
+                                                <rect key="frame" x="103" y="0.0" width="103" height="86.5"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="7tj-gy-LVV" id="eDl-sK-yn5"/>
+                                                    <outlet property="delegate" destination="7tj-gy-LVV" id="R5l-e0-0Ap"/>
+                                                </connections>
+                                            </pickerView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="8TM-4c-9Ge" firstAttribute="width" secondItem="7Oi-xS-waV" secondAttribute="width" multiplier="0.8" id="gSu-Iq-sxC"/>
-                                    <constraint firstItem="8TM-4c-9Ge" firstAttribute="centerX" secondItem="7Oi-xS-waV" secondAttribute="centerX" id="klu-5V-qap"/>
-                                    <constraint firstItem="8TM-4c-9Ge" firstAttribute="centerY" secondItem="7Oi-xS-waV" secondAttribute="centerY" id="n1r-hB-TpF"/>
+                                    <constraint firstItem="dtx-BF-zXQ" firstAttribute="top" secondItem="7Oi-xS-waV" secondAttribute="top" id="7Ke-AY-heo"/>
+                                    <constraint firstAttribute="trailing" secondItem="dtx-BF-zXQ" secondAttribute="trailing" id="LVF-u5-jlb"/>
+                                    <constraint firstItem="dtx-BF-zXQ" firstAttribute="leading" secondItem="7Oi-xS-waV" secondAttribute="leading" id="vPX-cu-xip"/>
+                                    <constraint firstAttribute="bottom" secondItem="dtx-BF-zXQ" secondAttribute="bottom" constant="10" id="vY7-VC-L6G"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eM3-XL-BuK">
-                                <rect key="frame" x="0.0" y="64" width="375" height="49.5"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="100.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rZ-dI-mX5">
-                                        <rect key="frame" x="0.0" y="10" width="375" height="58"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                        <state key="normal" title="Let's roll">
-                                            <color key="titleColor" red="1" green="0.19012612610976432" blue="0.21286582302337731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="yAh-6Q-vVv" kind="show" identifier="toShowResultsTable" id="A4f-N4-N7T"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bKf-K1-34Y">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="90.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rZ-dI-mX5">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                <state key="normal" title="Let's roll!!!">
+                                                    <color key="titleColor" red="1" green="0.19012612610976432" blue="0.21286582302337731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="yAh-6Q-vVv" kind="show" identifier="toShowResultsTable" id="A4f-N4-N7T"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of dices    Value of the dices" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-H7-Egc">
+                                                <rect key="frame" x="0.0" y="45" width="375" height="45.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="5rZ-dI-mX5" firstAttribute="leading" secondItem="eM3-XL-BuK" secondAttribute="leading" id="dYO-VI-z2T"/>
-                                    <constraint firstAttribute="trailing" secondItem="5rZ-dI-mX5" secondAttribute="trailing" id="rkh-4P-OtM"/>
-                                    <constraint firstItem="5rZ-dI-mX5" firstAttribute="top" secondItem="eM3-XL-BuK" secondAttribute="top" constant="10" id="zFn-wj-6GV"/>
+                                    <constraint firstAttribute="trailing" secondItem="bKf-K1-34Y" secondAttribute="trailing" id="47l-YK-2Na"/>
+                                    <constraint firstItem="bKf-K1-34Y" firstAttribute="leading" secondItem="eM3-XL-BuK" secondAttribute="leading" id="Cft-yj-8Pe"/>
+                                    <constraint firstItem="6H7-H7-Egc" firstAttribute="centerX" secondItem="eM3-XL-BuK" secondAttribute="centerX" id="e10-De-5nJ"/>
+                                    <constraint firstItem="bKf-K1-34Y" firstAttribute="top" secondItem="eM3-XL-BuK" secondAttribute="top" constant="10" id="mf9-mb-vLy"/>
+                                    <constraint firstAttribute="bottom" secondItem="bKf-K1-34Y" secondAttribute="bottom" id="rZi-pm-4X0"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7Oi-xS-waV" firstAttribute="top" secondItem="DH5-Jr-G6f" secondAttribute="bottom" id="0NO-PU-2tO"/>
-                            <constraint firstItem="wKA-d7-2X9" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.17" id="3nG-d1-dOX"/>
-                            <constraint firstItem="Ttv-KU-WmU" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" constant="10" id="5iy-Rz-ulC"/>
+                            <constraint firstItem="QTX-ra-JIs" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="0np-vC-loy"/>
+                            <constraint firstItem="wKA-d7-2X9" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.16" id="3nG-d1-dOX"/>
+                            <constraint firstItem="wKA-d7-2X9" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="4pC-03-p3E"/>
                             <constraint firstItem="DH5-Jr-G6f" firstAttribute="top" secondItem="wKA-d7-2X9" secondAttribute="bottom" id="6X6-iO-7al"/>
                             <constraint firstItem="Ttv-KU-WmU" firstAttribute="width" secondItem="D83-hG-uiC" secondAttribute="width" multiplier="0.55" id="E9K-FI-XOd"/>
-                            <constraint firstItem="wKA-d7-2X9" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" id="JPJ-gO-sSc"/>
-                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" id="L6w-oF-Gwj"/>
                             <constraint firstItem="Ttv-KU-WmU" firstAttribute="top" secondItem="QTX-ra-JIs" secondAttribute="bottom" id="N9Y-38-j67"/>
-                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.17" id="NSs-wH-Q8P"/>
+                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.16" id="NSs-wH-Q8P"/>
                             <constraint firstItem="VXm-hZ-XVc" firstAttribute="trailing" secondItem="eM3-XL-BuK" secondAttribute="trailing" id="OBt-X8-MWv"/>
-                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.4" id="Pif-OH-MYJ"/>
+                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.55" id="Pif-OH-MYJ"/>
                             <constraint firstItem="QTX-ra-JIs" firstAttribute="top" secondItem="eM3-XL-BuK" secondAttribute="bottom" id="UnT-et-bd4"/>
-                            <constraint firstItem="7Oi-xS-waV" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" id="XGU-TK-a10"/>
-                            <constraint firstItem="QTX-ra-JIs" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" constant="10" id="YIj-jw-etp"/>
-                            <constraint firstItem="wKA-d7-2X9" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.4" id="aLy-KN-zsV"/>
+                            <constraint firstItem="wKA-d7-2X9" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.55" id="aLy-KN-zsV"/>
                             <constraint firstItem="QTX-ra-JIs" firstAttribute="width" secondItem="D83-hG-uiC" secondAttribute="width" multiplier="0.55" id="cqY-We-GuV"/>
-                            <constraint firstItem="VXm-hZ-XVc" firstAttribute="bottom" secondItem="7Oi-xS-waV" secondAttribute="bottom" constant="30" id="dSc-B9-rF4"/>
-                            <constraint firstItem="Ttv-KU-WmU" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.17" id="gjM-t0-l4Q"/>
+                            <constraint firstItem="VXm-hZ-XVc" firstAttribute="bottom" secondItem="7Oi-xS-waV" secondAttribute="bottom" constant="10" id="dSc-B9-rF4"/>
+                            <constraint firstItem="DH5-Jr-G6f" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="eRm-qZ-vx6"/>
+                            <constraint firstItem="Ttv-KU-WmU" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.16" id="gjM-t0-l4Q"/>
                             <constraint firstItem="wKA-d7-2X9" firstAttribute="top" secondItem="Ttv-KU-WmU" secondAttribute="bottom" id="jVo-Mj-JrQ"/>
                             <constraint firstItem="eM3-XL-BuK" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="jjX-Vr-R3e"/>
-                            <constraint firstItem="7Oi-xS-waV" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.4" id="oVv-hU-BUw"/>
-                            <constraint firstItem="7Oi-xS-waV" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.17" id="og7-Le-Inf"/>
+                            <constraint firstItem="Ttv-KU-WmU" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="n1W-24-Xty"/>
+                            <constraint firstItem="7Oi-xS-waV" firstAttribute="width" secondItem="VXm-hZ-XVc" secondAttribute="width" multiplier="0.55" id="oVv-hU-BUw"/>
+                            <constraint firstItem="7Oi-xS-waV" firstAttribute="height" secondItem="VXm-hZ-XVc" secondAttribute="height" multiplier="0.16" id="og7-Le-Inf"/>
                             <constraint firstItem="eM3-XL-BuK" firstAttribute="leading" secondItem="VXm-hZ-XVc" secondAttribute="leading" id="tid-bt-DRK"/>
-                            <constraint firstItem="QTX-ra-JIs" firstAttribute="height" secondItem="D83-hG-uiC" secondAttribute="height" multiplier="0.17" id="uWB-kg-gpa"/>
+                            <constraint firstItem="QTX-ra-JIs" firstAttribute="height" secondItem="D83-hG-uiC" secondAttribute="height" multiplier="0.16" id="uWB-kg-gpa"/>
                             <constraint firstItem="VXm-hZ-XVc" firstAttribute="top" secondItem="eM3-XL-BuK" secondAttribute="top" id="xMK-Mx-ifC"/>
+                            <constraint firstItem="7Oi-xS-waV" firstAttribute="centerX" secondItem="VXm-hZ-XVc" secondAttribute="centerX" id="ynM-bx-Qmh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VXm-hZ-XVc"/>
                     </view>
