@@ -19,7 +19,7 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     @IBOutlet weak var pickerValue1: UIPickerView!
     
     let value = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,100]
-    let number = [1,2,3,4,5,6,7,8,9,10]
+    let number = [0,1,2,3,4,5,6,7,8,9,10]
     var dicesBag = [Dice]()
     
     
@@ -89,9 +89,11 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         selectedRow = pickerViewValue.selectedRow(inComponent: 0)
         let valueSelected = value[selectedRow]
         
-        dice.numberOfDices = numberSelected
-        dice.valueOfDices = valueSelected
-        dicesBag.append(dice)
+        if numberSelected != 0{
+            dice.numberOfDices = numberSelected
+            dice.valueOfDices = valueSelected
+            dicesBag.append(dice)
+        }
     }
     
     
