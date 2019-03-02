@@ -13,6 +13,7 @@ class InitialViewController: UIViewController {
     @IBOutlet weak var labelLetsRoll: UIButton!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { timer in

@@ -35,6 +35,7 @@ class ConfigDices: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         super.viewDidLoad()
         
         self.navigationItem.title = "Select dices"
+        self.navigationItem.setHidesBackButton(true, animated: false)
     }
     
     
